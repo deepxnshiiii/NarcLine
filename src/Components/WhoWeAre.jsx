@@ -52,7 +52,7 @@ export default function WhoWeAre() {
                     Who we are
                 </h3>
                 <p className="max-w-[35rem] text-lg text-justify text-[#003588]">
-                    <strong>SafeNet</strong> is a dedicated platform committed
+                    <strong>NarcLine</strong> is a dedicated platform committed
                     to the fight against drug trafficking and abuse. Our mission
                     is to empower individuals and communities by providing the
                     tools, resources, and support needed to take a stand against
@@ -61,7 +61,7 @@ export default function WhoWeAre() {
                     reduce the impact of drugs on society and create a safer
                     environment for everyone. By facilitating secure reporting,
                     offering educational resources, and fostering community
-                    engagement, SafeNet aims to be a cornerstone in the global
+                    engagement, NarcLine aims to be a cornerstone in the global
                     effort to combat drug abuse and trafficking. Together, we
                     can make a difference and protect future generations from
                     the dangers of drugs.

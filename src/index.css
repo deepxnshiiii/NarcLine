@@ -8,3 +8,14 @@ html,
 body {
     font-family: "Instrument Sans", sans-serif;
 }
+
+.slick-track {
+    display: flex;
+    gap: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #003588 !important;
+    font-size: 25px !important;
+}

@@ -8,7 +8,7 @@ export default function HowWeWork() {
         {
             title: "Secure Reporting",
             description:
-                "Experience hassle-free reporting of drug trafficking activities with SafeNet. Our platform makes sure that filing a report is easy, fast, and—above all—secure. We ensure the security of your contribution and safeguard your identity by using cutting-edge encryption technologies.",
+                "Experience hassle-free reporting of drug trafficking activities with NarcLine. Our platform makes sure that filing a report is easy, fast, and—above all—secure. We ensure the security of your contribution and safeguard your identity by using cutting-edge encryption technologies.",
         },
         {
             title: "Analyze and Take Action",
@@ -107,7 +107,7 @@ export default function HowWeWork() {
                                     <div className="w-[35rem] text-[#00348842]">
                                         <h5
                                             id={`heading-${index}`}
-                                            className="text-4xl font-medium pb-6"
+                                            className="text-4xl font-semibold pb-6"
                                         >
                                             {elem.title}
                                         </h5>

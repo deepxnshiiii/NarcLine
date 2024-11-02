@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
     return (
         <div className="my-20 px-16 flex gap-12">
@@ -8,7 +10,7 @@ export default function Footer() {
 
                 <div className="h-full flex flex-col justify-between p-10">
                     <h3 className="text-4xl font-bold text-[#003588]">
-                        SafeNet
+                        NarcLine
                     </h3>
                     <div>
                         <p className="text-[1.4rem] font-medium text-[#003588] pb-4">
@@ -44,20 +46,41 @@ export default function Footer() {
                         </h5>
                         <div className="flex gap-16 text-lg font-medium text-[#033e9ec9] tracking-wide ">
                             <ul className="flex flex-col gap-3">
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>News</li>
+                                <li>
+                                    <Link to="/">Home</Link>
+                                </li>
+                                <li>
+                                    <Link to="/about">About</Link>
+                                </li>
+                                <li>
+                                    <Link to="/services">Services</Link>
+                                </li>
+                                <li>
+                                    <Link to="/latestnews">News</Link>
+                                </li>
                                 <li>Community</li>
-                                <li>Donations</li>
-                                <li>Tutorials</li>
-                                <li>Blogs</li>
-                                <li>Complaint</li>
+                                <li>
+                                    <Link to="/donations">Donations</Link>
+                                </li>
+                                <li>
+                                    <Link to="/eduresources">Tutorials</Link>
+                                </li>
+                                <li>
+                                    <Link to="/anonymouscomplaint">
+                                        Complaint
+                                    </Link>
+                                </li>
                             </ul>
                             <ul className="flex flex-col gap-3">
-                                <li>Blogs</li>
-                                <li>FAQs</li>
-                                <li>Stories</li>
-                                <li>Contact</li>
+                                <li>
+                                    <Link to="/blogs">Blogs</Link>
+                                </li>
+                                <li>
+                                    <Link to="/faqs">FAQs</Link>
+                                </li>
+                                <li>
+                                    <Link to="/contactus">Contact Us</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -85,13 +108,16 @@ export default function Footer() {
                             Contact Information
                         </h5>
                         <ul className="flex flex-col gap-3 text-lg font-medium text-[#033e9ec9] tracking-wide">
-                            <li>Address
+                            <li>
+                                Address
                                 <p>123 Main St, Anytown, USA</p>
                             </li>
-                            <li>Phone
+                            <li>
+                                Phone
                                 <p>+123-456-7890</p>
                             </li>
-                            <li>E-mail
+                            <li>
+                                E-mail
                                 <p>abcd@gmail.com</p>
                             </li>
                         </ul>

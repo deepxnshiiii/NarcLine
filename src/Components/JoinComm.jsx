@@ -10,7 +10,7 @@ export default function JoinComm() {
                     Join our Community of Care
                 </h3>
                 <p className="mt-2 w-[40rem] text-[#003588] text-center">
-                    At SafeNet, we're here to provide compassionate and
+                    At NarcLine, we're here to provide compassionate and
                     personalized care to you or your loved ones.
                 </p>
                 <button className="mt-8 px-5 py-3 text-white font-medium bg-[#003588] rounded-full">

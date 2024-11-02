@@ -1,7 +1,7 @@
 import JoinComm from "../Components/JoinComm";
 import OurValue from "../Components/OurValue";
 import Team from "../Components/Team";
-import MissionImpactChallenges from "../Components/MIssion,Impact,Challenges";
+import MissionImpactChallenges from "../Components/Mission,Impact,Challenges";
 
 export default function About() {
     return (

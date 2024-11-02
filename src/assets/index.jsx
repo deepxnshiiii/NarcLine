@@ -20,6 +20,8 @@ import charity from "./charity.svg";
 import webinar from "./webinar.svg";
 import userNotFound from "./userNotFound.svg";
 import blackSkiMask from "./blackSkiMask.svg";
+import depressedWoman from "./close_up_depressed_woman_holding_pills.jpg";
+import womenHandHoldingPills from "./woman_hand_holding_blister_pack_wooden_desk.jpg";
 
 export {
     Arrow,
@@ -44,4 +46,6 @@ export {
     webinar,
     userNotFound,
     blackSkiMask,
+    depressedWoman,
+    womenHandHoldingPills,
 };

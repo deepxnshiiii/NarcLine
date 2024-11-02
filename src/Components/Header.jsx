@@ -58,6 +58,12 @@ export default function Header() {
                                         </Link>
                                     </li>
                                     <li>
+                                        <Link to="/blogs">Blogs</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/donations">Donations</Link>
+                                    </li>
+                                    <li>
                                         <Link to="/eduresources">
                                             Resources
                                         </Link>
@@ -66,7 +72,7 @@ export default function Header() {
                                         <Link to="/webinars">Webinars</Link>
                                     </li>
                                     <li>
-                                        <Link to="/donations">Donations</Link>
+                                        <Link to="/feedback">Feedback</Link>
                                     </li>
                                     <li>
                                         <Link to="/contactus">Contact Us</Link>
@@ -90,12 +96,12 @@ export default function Header() {
                 </ul>
                 <div className="absolute left-1/2 -translate-x-1/2">
                     <h1 className="text-5xl font-bold text-[#364F65]">
-                        SafeNet
+                        NarcLine
                     </h1>
                 </div>
                 <div>
                     <button className="px-6 py-3 rounded-full text-lg text-white font-medium bg-green-800">
-                        Make a Complaint
+                        <Link to="/anonymouscomplaint">Make a Complaint</Link>
                     </button>
                 </div>
             </nav>

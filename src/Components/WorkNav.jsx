@@ -3,7 +3,7 @@ export default function WorkNav() {
         {
             title: "Secure Reporting",
             description:
-                "Experience hassle-free reporting of drug trafficking activities with SafeNet. Our platform makes sure that filing a report is easy, fast, and—above all—secure. We ensure the security of your contribution and safeguard your identity by using cutting-edge encryption technologies.",
+                "Experience hassle-free reporting of drug trafficking activities with NarcLine. Our platform makes sure that filing a report is easy, fast, and—above all—secure. We ensure the security of your contribution and safeguard your identity by using cutting-edge encryption technologies.",
         },
         {
             title: "Analyze and Take Action",

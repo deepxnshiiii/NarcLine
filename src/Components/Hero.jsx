@@ -33,7 +33,7 @@ export default function Hero() {
                 <div className="w-[30vw]">
                     <div className="flex flex-col items-center">
                         <h4 className="my-4  text-[1rem] text-white">
-                            At SafeNet, we focus on education and community
+                            At NarcLine, we focus on education and community
                             involvement to build a safer environment for
                             everyone. Together, we can make a difference.
                         </h4>
