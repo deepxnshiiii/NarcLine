@@ -20,12 +20,12 @@ export default function BlogSection() {
         dots: true,
         lazyLoad: true,
         infinite: true,
-        speed: 500,
+        speed: 700,
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 2,
         autoplay: true,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 4000,
         nextArrow: <div>Next</div>, // Keep the next arrow
         prevArrow: <div style={{ display: "none" }}>Prev</div>,
         afterChange: (index) => setCurrentSlide(index), // Track current slide

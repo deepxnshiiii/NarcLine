@@ -8,6 +8,13 @@ import AnonymousComplaint from "./pages/AnonymousComplaint";
 import LatestNews from "./pages/LatestNews";
 import WantedIndividuals from "./pages/WantedIndividuals";
 import Blogs from "./pages/Blogs";
+import Donations from "./pages/Donations";
+import EduResources from "./pages/EduResources";
+import FeedbackForm from "./pages/FeedbackForm";
+import Webinars from "./pages/Webinars";
+import ContactUs from "./pages/ContactUs";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import FAQ from "./pages/FAQ";
 
 function App() {
     return (
@@ -18,16 +25,29 @@ function App() {
                         <Route index element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/services" element={<Services />} />
-                        <Route
-                            path="/anonymouscomplaint"
-                            element={<AnonymousComplaint />}
-                        />
                         <Route path="/latestnews" element={<LatestNews />} />
                         <Route
                             path="/wantedindividuals"
                             element={<WantedIndividuals />}
                         />
                         <Route path="/blogs" element={<Blogs />} />
+                        <Route path="/donations" element={<Donations />} />
+                        <Route
+                            path="/eduresources"
+                            element={<EduResources />}
+                        />
+                        <Route path="/webinars" element={<Webinars />} />
+                        <Route path="/feedback" element={<FeedbackForm />} />
+                        <Route path="/contactus" element={<ContactUs />} />
+                        <Route
+                            path="/privacypolicy"
+                            element={<PrivacyPolicy />}
+                        />
+                        <Route path="/faqs" element={<FAQ />} />
+                        <Route
+                            path="/anonymouscomplaint"
+                            element={<AnonymousComplaint />}
+                        />
                     </Route>
                 </Routes>
             </Router>
