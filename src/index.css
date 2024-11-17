@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.bg {
+    background-image: url("../src/assets/treatment-sick-person.jpg")
+} 
+
+.slick-track {
+    display: flex;
+    gap: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #003588 !important;
+    font-size: 25px !important;
+}
